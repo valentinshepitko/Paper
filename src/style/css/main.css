@@ -1,0 +1,221 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.title {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 70px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 140px;
+  color: white;
+  font-weight: 400;
+}
+
+.desc {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 185px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  opacity: 0.5;
+}
+
+.button-holder {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 85px;
+}
+
+.button {
+  border: solid 1px white;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  border-radius: 25px;
+  padding: 10px 30px;
+}
+.button:hover {
+  background-color: gray;
+  color: white;
+  transition: ease-in-out 0.3s;
+}
+
+.header {
+  background-image: url("../../../../src/image/hero.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 33px;
+}
+.header__holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.header__nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.header__nav-link {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+}
+.header__nav-link:hover {
+  text-decoration: underline;
+  transition: ease-in-out 1s;
+}
+.header__title {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 70px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 140px;
+  color: white;
+  opacity: 0.5;
+}
+.header__desc {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 185px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  opacity: 0.5;
+}
+.header__link-holder {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 85px;
+}
+.header__link {
+  border: solid 1px gray;
+  color: grey;
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  border-radius: 25px;
+  padding: 10px 30px;
+}
+.header__link:hover {
+  background-color: gray;
+  color: white;
+  transition: ease-in-out 0.3s;
+}
+
+.living {
+  background-image: url("../../../../src/image/living.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 33px;
+}
+
+.shape {
+  background-image: url("../../../../src/image/shape.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 33px;
+}
+
+.capturing {
+  background-image: url("../../../../src/image/capturing.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 33px;
+}
+
+.background {
+  background-image: url("../../../../src/image/backround.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 33px;
+  height: 100vh;
+}
+
+.footer {
+  background-color: black;
+}
+.footer__title {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  padding-top: 120px;
+  padding-bottom: 5px;
+}
+.footer__desc {
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  padding-bottom: 60px;
+}
+.footer__button-holder {
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 110px;
+}
+.footer__start {
+  border-radius: 30px;
+  background-color: #FFFFFF;
+  color: black;
+  padding: 9px 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.footer__start:hover {
+  background-color: black;
+  color: #FFFFFF;
+  transition: ease-in 0.4s;
+}
+/*# sourceMappingURL=main.css.map */

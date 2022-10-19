@@ -1,0 +1,45 @@
+.footer{
+  background-color: black;
+
+  &__title{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    padding-top: 120px;
+    padding-bottom: 5px;
+  }
+
+  &__desc{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 60px;
+  }
+
+
+  &__button-holder{
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 110px;
+  }
+
+  &__start{
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 9px 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+
+    &:hover{
+      background-color: black;
+      color: #FFFFFF;
+      transition: ease-in 0.4s;
+    }
+  }
+}

@@ -1,17 +1,21 @@
 .header{
 
-  //background: url("../../../../src/image/hero.png")  no-repeat center top;
   background-image: url("../../../../src/image/hero.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 33px;
 
-
   &__holder{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  }
+
+  &__logo-holder{
+    @include breakpoint('sm'){
+      padding-bottom: 30px;
+    }
   }
 
   &__nav-list{
@@ -40,6 +44,14 @@
     font-size: 140px;
     color: white;
     opacity: 0.5;
+
+    @include breakpoint('lg'){
+      font-size: 70px;
+    }
+
+    @include breakpoint('sm'){
+      font-size: 40px;
+    }
   }
 
   &__desc{

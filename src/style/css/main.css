@@ -47,7 +47,16 @@ img {
   font-weight: 400;
   font-size: 140px;
   color: white;
-  font-weight: 400;
+}
+@media (max-width: 1024px) {
+  .title {
+    font-size: 70px;
+  }
+}
+@media (max-width: 640px) {
+  .title {
+    font-size: 40px;
+  }
 }
 
 .desc {
@@ -81,8 +90,21 @@ img {
   transition: ease-in-out 0.3s;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: gray;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ce2e85;
+  border-radius: 8px;
+}
+
 .header {
-  background-image: url("../../../../src/image/hero.png");
+  background-image: url("../../../src/image/hero.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -92,6 +114,11 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+@media (max-width: 640px) {
+  .header__logo-holder {
+    padding-bottom: 30px;
+  }
 }
 .header__nav-list {
   display: flex;
@@ -116,6 +143,16 @@ img {
   font-size: 140px;
   color: white;
   opacity: 0.5;
+}
+@media (max-width: 1024px) {
+  .header__title {
+    font-size: 70px;
+  }
+}
+@media (max-width: 640px) {
+  .header__title {
+    font-size: 40px;
+  }
 }
 .header__desc {
   margin: 0 auto;
@@ -147,7 +184,7 @@ img {
 }
 
 .living {
-  background-image: url("../../../../src/image/living.png");
+  background-image: url("../../../src/image/living.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -155,7 +192,7 @@ img {
 }
 
 .shape {
-  background-image: url("../../../../src/image/shape.png");
+  background-image: url("../../../src/image/shape.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -163,7 +200,7 @@ img {
 }
 
 .capturing {
-  background-image: url("../../../../src/image/capturing.png");
+  background-image: url("../../../src/image/capturing.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -171,7 +208,7 @@ img {
 }
 
 .background {
-  background-image: url("../../../../src/image/backround.png");
+  background-image: url("../../../src/image/backround.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -190,6 +227,11 @@ img {
   font-weight: 400;
   padding-top: 120px;
   padding-bottom: 5px;
+}
+@media (max-width: 1024px) {
+  .footer__title {
+    font-size: 40px;
+  }
 }
 .footer__desc {
   text-align: center;
@@ -211,7 +253,7 @@ img {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-size: 14px;
-  letter-spacing: 0.5px;
+  letter-spacing: 1px;
 }
 .footer__start:hover {
   background-color: black;

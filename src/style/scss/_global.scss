@@ -47,7 +47,14 @@ img {
   font-weight: 400;
   font-size: 140px;
   color: white;
-  font-weight: 400;
+
+  @include breakpoint('lg'){
+    font-size: 70px;
+  }
+
+  @include breakpoint('sm'){
+    font-size: 40px;
+  }
 }
 
 .desc{
@@ -80,4 +87,17 @@ img {
     color: white;
     transition: ease-in-out 0.3s;
   }
+}
+
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::-webkit-scrollbar-track{
+  background: gray;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #ce2e85;
+  border-radius: 8px;
 }
